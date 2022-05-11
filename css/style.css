@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-negro:hsl(267, 73%, 3%);
+    --color-blanco:hsl(0, 0%, 100%);
+    --color-blanco-2:hsl(38, 44%, 90%);
+    --color-acento:hsl(198, 66%, 62%);
+    --color-marron1:hsl(40, 12%, 59%);
+    --color-marron2:hsl(40, 10%, 40%);
+}
+
+*{
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    
+    line-height: 1.5;
+    background-color: var(--color-blanco-2);
+}
+
+main{
+    width: min(1250px, 100%);
+    margin: 0 auto;
+}
+.imagen-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bienvenida.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.titulo{
+    background-color:rgba(0, 0, 0, 0.575);
+    color: var(--color-blanco);
+    font-weight: 200;
+    font-size: 400;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    width: 1250px;
+    text-align: center;
+}
+.h1-novedades{
+    text-align: center;
+}
+.novedades{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    flex-wrap:wrap;
+}
+
+.articulos{
+    width: 250px;
+    text-align: center;
+    margin: 0;
+}
+
+.titulo-libro{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Footer*/
+.footer{
+    background-color: var(--color-marron1);
+    font-size: 24px;
+    width: 100%;
+    color: beige;
+    padding: 80px;
+}
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 32px;
+}
+
+
+/**/
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex {
+    display: flex;
+    gap: 16px;
+}
+
+body {
+    color: var(--color-negro);
+    background-color: var(--color-blanco-2);
+    margin: 0;
+    line-height: 1.5;
+}
+
+header {
+    background-color: var(--color-negro);
+    text-align: center;
+    padding: 35px 0 20px;
+}
+
+header ul,
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li,
+footer li {
+    display: inline-block;
+    margin: 16px;
+}
+
+.contenedor-header {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+.contenedor_header>nav {
+    margin: auto;
+}
+
+.buscar>input {
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 3px solid var(--color-marron2);
+}
+
+.buscar>button {
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: var(--color-acento);
+    border: 3px solid var(--color-marron2);
+}
+
+.buscar>input:focus,
+.buscar>button:focus {
+    outline: none;
+    border: 3px solid var(--color-acento);
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    display: block;
+    width: 450px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid var(--color-marron2);
+    outline: none;
+}
+
+.formulario input:focus,
+.formulario textarea:focus,
+.formulario select:focus {
+    border-bottom: 2px solid var(--color-acento);
+}
+
+.formulario textarea {
+    height: 200px;
+}
+
+.formulario .opciones {
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+}
+
+.formulario .submit {
+    background-color: var(--color-acento);
+    font-weight: 700;
+    border: none;
+}
+
+table {
+    width: 750px;
+    margin: 0 auto;
+    border: #07020D 1px solid;
+    border-collapse: collapse;
+}
+
+table img {
+    width: 100px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: var(--color-marron2);
+    color: var(--color-blanco-2);
+}
+
+td {
+    background-color: var(--color-blanco-2);
+}
+
+tr:nth-child(odd) td {
+    background-color: var(--color-marron1);
+}
+
+tr:hover td {
+    background-color: var(--color-acento);
+    font-weight: 600;
+}

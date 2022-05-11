@@ -5,8 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Practica</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>  
+        <div class="contenedor_header flex">             
+             <div>                 
+             <a href="index.html"><img src="img/logo.svg" alt="La Librería | Libros Fantásticos"><a>             
+            </div>             
+            <nav>                 
+                <ul>                     
+                    <li><a href="catalogo.html">Catálogo</a></li>                     
+                    <li><a href="sobrenosotros.html">Sobre Nosotros</a><li>                     
+                    <li><a href="contacto.html">Contacto</a></li>                     
+                    <li><a href="login.html">Login</a></li>                 
+                </ul>             
+            </nav>             
+            <form class="buscar" action="" method="GET">                 
+                <label for="busqueda"></label>                 
+                <input id="busqueda" name="busqueda" type="text" placeholder="Buscá tu libro">                 
+                <button id="buscar" name="buscar" aria-label="buscar contenido"><i class="fa-solid fa-magnifying-glass"></i></button>             
+            </form>
+        </div>      
+    </header>
+
+    <main id="index">
+        <section class="imagen-titulo">
+            <h1 class="titulo">Bienvenidos a La Libreria</h1>
+        </section>
+        <h1 class="h1-novedades">Novedades</h1>
+        <section class="novedades">
+            <article class="articulos">
+                <img src="img/01.jpg" alt="imagen1">
+                <h2 class="titulo-libro">H.P. Lovecraft</h2>
+                <h3 class="titulo-libro">H.P. Lovecraft, Obras Completas</h3>
+                <a href="#">Ver Mas</a>
+            </article>
+            <article class="articulos">
+                <img src="img/02.jpg" alt="imagen2">
+                <h2 class="titulo-libro">Robert E. Howard</h2>
+                <h3 class="titulo-libro">Las Crónicas Completas de Conan</h3>
+                <a href="#">Ver Mas</a>
+            </article>
+            <article class="articulos">
+                <img src="img/03.jpg" alt="imagen3">
+                <h2 class="titulo-libro">J.R.R. Tolkien</h2>
+                <h3 class="titulo-libro">Los Hijos de Húrin</h3>
+                <a href="#">Ver Mas</a>
+            </article>
+            <article class="articulos">
+                <img src="img/04.jpg" alt="imagen4">
+                <h2 class="titulo-libro">J.R.R. Tolkien</h2>
+                <h3 class="titulo-libro">El Silmarillion</h3>
+                <a href="#">Ver Mas</a>
+            </article>
+            <article class="articulos">
+                <img src="img/05.jpg" alt="imagen5">
+                <h2 class="titulo-libro">Frank Herbert</h2>
+                <h3 class="titulo-libro">Duna</h3>
+                <a href="#">Ver Mas</a>
+            </article>
+            <article class="articulos">
+                <img src="img/06.jpg" alt="imagen6">
+                <h2 class="titulo-libro">Michael Crichton</h2>
+                <h3 class="titulo-libro">Esfera</h3>
+                <a href="#">Ver Mas</a>
+            </article>
+            <article class="articulos">
+                <img src="img/07.jpg" alt="imagen7">
+                <h2 class="titulo-libro">Edgar Allan Poe</h2>
+                <h3 class="titulo-libro">Las Historias y Poemas de Edgar Allan Poe</h3>
+                <a href="#">Ver Mas</a>
+            </article>
+            <article class="articulos">
+                <img src="img/08.jpg" alt="imagen8">
+                <h2 class="titulo-libro">William Shakespeare</h2>
+                <h3 class="titulo-libro">Obra Completa de William Shakespeare</h3>
+                <a href="#">Ver Mas</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <ul class="ul">
+                <li>Av. Rivadavia 1755 - CABA</li>
+                <li>011-4444-6666</li>
+                <li>contacto@lalibreria.com.ar</li>
+                <li><a href="index.html">Ir arriba</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
