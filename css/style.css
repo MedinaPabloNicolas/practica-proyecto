@@ -23,6 +23,41 @@ body{
     background-color: var(--color-blanco-2);
 }
 
+/*Flex*/
+.flex{
+    display: flex;
+    gap: 16px;
+}
+
+
+/*Header*/
+
+header{
+    background-color: var(--color-negro);
+    width: 100%;
+    padding: 35px 0 20px 0;
+}
+
+.contenedor_header{
+    padding: 32px 0;
+    margin: 0 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    gap: 0;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav > li {
+    margin: 16px;
+}
+/*Main*/
+
 main{
     width: min(1250px, 100%);
     margin: 0 auto;
@@ -88,148 +123,39 @@ main{
 }
 
 
-/**/
-* {
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-}
+/*Sobre Nosotros*/
 
-.flex {
-    display: flex;
-    gap: 16px;
+.nosotros{
+    width: min(1250px , 100%);
 }
-
-body {
-    color: var(--color-negro);
-    background-color: var(--color-blanco-2);
-    margin: 0;
-    line-height: 1.5;
+.mivideo{
+    width: min(100%, 800px);
 }
-
-header {
-    background-color: var(--color-negro);
-    text-align: center;
-    padding: 35px 0 20px;
-}
-
-header ul,
-footer ul {
+.nosotros-ul{
     list-style: none;
     padding: 0;
-    margin: 0;
-}
+    font-size: 30px;
 
-header li,
-footer li {
-    display: inline-block;
-    margin: 16px;
 }
-
-.contenedor-header {
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1250px;
-    margin: 0 auto;
-    padding: 32px 0;
+.contenedor-texto{
+    width: 340px
 }
-
-.contenedor_header>nav {
-    margin: auto;
-}
-
-.buscar>input {
-    margin-top: 10px;
-    padding: 12px 15px;
-    border-radius: 10px;
-    border: 3px solid var(--color-marron2);
-}
-
-.buscar>button {
-    margin-top: 10px;
-    padding: 12px 15px;
-    border-radius: 10px;
-    background-color: var(--color-acento);
-    border: 3px solid var(--color-marron2);
-}
-
-.buscar>input:focus,
-.buscar>button:focus {
-    outline: none;
-    border: 3px solid var(--color-acento);
-}
-
-.formulario label {
-    display: block;
-    margin-bottom: 20px;
-}
-
-.formulario input,
-.formulario textarea,
-.formulario select {
-    display: block;
-    width: 450px;
-    margin: 15px auto;
-    padding: 10px;
-    border-radius: 0px;
-    border: none;
-    border-bottom: 2px solid var(--color-marron2);
-    outline: none;
-}
-
-.formulario input:focus,
-.formulario textarea:focus,
-.formulario select:focus {
-    border-bottom: 2px solid var(--color-acento);
-}
-
-.formulario textarea {
-    height: 200px;
-}
-
-.formulario .opciones {
-    display: inline-block;
-    width: auto;
-    margin: 5px;
-}
-
-.formulario .submit {
-    background-color: var(--color-acento);
-    font-weight: 700;
-    border: none;
-}
-
-table {
-    width: 750px;
-    margin: 0 auto;
-    border: #07020D 1px solid;
-    border-collapse: collapse;
-}
-
-table img {
-    width: 100px;
-}
-
-th,
-td {
-    padding: 10px;
-}
-
-th {
-    background-color: var(--color-marron2);
-    color: var(--color-blanco-2);
-}
-
-td {
-    background-color: var(--color-blanco-2);
-}
-
-tr:nth-child(odd) td {
-    background-color: var(--color-marron1);
-}
-
-tr:hover td {
-    background-color: var(--color-acento);
+.nosotros-h1{
+    text-align: left;
+    padding: 0 ;
     font-weight: 600;
 }
+
+.nosotros-texto{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    line-height: 2;
+    
+}
+.mapa-nosotros{
+    margin-top: 40px;
+    width: 100%;
+    height: 598px;
+}
+
