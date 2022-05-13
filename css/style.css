@@ -56,6 +56,32 @@ header{
 .nav > li {
     margin: 16px;
 }
+.buscar > input {
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 3px solid var(--color-marron2);
+}
+
+.buscar > input:focus,
+.buscar > button:focus {
+    outline: none;
+    border: 3px solid var(--color-acento);
+}
+
+.buscar > button{
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: var(--color-acento);
+    border: 3px solid var(--color-marron2);
+}
+
+
+
+
+
+
 /*Main*/
 
 main{
